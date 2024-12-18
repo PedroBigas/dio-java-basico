@@ -3,10 +3,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "java-terminal_35f574ab"
+        },
+        {
+            "type": "java",
             "name": "Launch AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            "args": ["Pedro", "Bigas", "22", "1.80"]
+            "args": [
+                "Pedro",
+                "Bigas",
+                "22",
+                "1.80"
+            ]
         }
     ]
 }
